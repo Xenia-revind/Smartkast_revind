@@ -315,7 +315,7 @@ div#navbarNavDropdown {
 }
 
 .hero .container {
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 
@@ -363,7 +363,7 @@ div#navbarNavDropdown {
 
 
 .about .container {
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 .about h5 {
@@ -458,7 +458,7 @@ div#navbarNavDropdown {
 /*Properties*/
 
 .properties .container {
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 .properties h5 {
@@ -555,7 +555,7 @@ div#navbarNavDropdown {
 }
 
 .blog .container-fluid {
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 .card {
@@ -697,6 +697,7 @@ section.discoverhero:before {
 .discoverhero .hexatransform {
     position: absolute;
     transform: translate(55vw, 6vh);
+    width: 70%;
 }
 
 .varieties h2.title {
@@ -794,6 +795,7 @@ section.abouthero:before {
 .abouthero .poly {
     position: absolute;
     transform: translate(55vw, 16vh);
+    width: 90%;
 }
 
 .abouthero .container {
@@ -905,7 +907,7 @@ section.projecthero:before {
 }
 
 .projecthero .container {
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 .projecthero h1 {
@@ -1087,8 +1089,8 @@ section.articlehero:before {
 
 .articlehero .poly {
     transform: translate(-451px, 268px);
+    width: 60%;
 }
-
 
 
 .article1 {
@@ -2336,13 +2338,13 @@ padding: 0px 24px;
         transform: translate(0, -12px);
     }
 
-    img.projecthexa2 {
-        width: auto;
-        position: absolute;
-        z-index: 1;
-        right: 0;
-    }
-
+ img.projecthexa2 {
+    width: auto;
+    position: absolute;
+    z-index: 1;
+    right: 109px;
+    top: -186px;
+}
     img.projectimage2 {
         transform: translate(-30%);
         width: 470px;
